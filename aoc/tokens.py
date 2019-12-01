@@ -1,5 +1,0 @@
-tokens = {
-    "_ga": "GA1.2.704845506.1575188032",
-    "_gid": "GA1.2.2082918000.1575188032",
-    "session": "53616c7465645f5fbe6d2cdf5e56dcbfcc0c86594696f03b75867ed00788b0f3f2fea9144bcbae5e829f3ab2f3aa2bc1"
-}
