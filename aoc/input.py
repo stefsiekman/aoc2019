@@ -41,8 +41,8 @@ def input_text(day=datetime.datetime.today().day):
     return cached(day)
 
 
-def input_lines():
-    return input_text().split(',')
+def input_lines(delim=None):
+    return input_text().split(delim)
 
 
 if __name__ == "__main__":

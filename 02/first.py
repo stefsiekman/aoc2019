@@ -2,7 +2,7 @@ import aoc.input
 
 
 if __name__ == "__main__":
-    cells = [int(a) for a in aoc.input.input_lines()]
+    cells = [int(a) for a in aoc.input.input_lines(',')]
     pointer = 0
     cells[1] = 12
     cells[2] = 2
