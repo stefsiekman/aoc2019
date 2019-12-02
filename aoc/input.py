@@ -27,6 +27,8 @@ def cached(day):
         if code == 200:
             with open("input.txt", "w") as file:
                 file.write(text)
+        else:
+            print("WARNING: Non 200 code")
 
     print(f"Read input of {len(text) / 1000} kB")
     print(f"... with {len(text.split())} lines")
@@ -40,7 +42,7 @@ def input_text(day=datetime.datetime.today().day):
 
 
 def input_lines():
-    return input_text().split()
+    return input_text().split(',')
 
 
 if __name__ == "__main__":
