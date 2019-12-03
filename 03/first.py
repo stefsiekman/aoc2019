@@ -45,5 +45,6 @@ if __name__ == "__main__":
     lines = aoc.input.input_lines()
     wires = [l.split(',') for l in lines]
     wire_nodes = [nodes(w) for w in wires]
+
     print(distance(closest_crossing(wire_nodes)))
 
