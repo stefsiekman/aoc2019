@@ -24,12 +24,7 @@ def dist_to_intersections(intersections, wire):
 
 
 def min_total_distance(distances):
-    min_distance = None
-    for pos in distances[0]:
-        dist = distances[0][pos] + distances[1][pos]
-        if min_distance is None or dist < min_distance:
-            min_distance = dist
-    return min_distance
+    return min(distances[0][pos] + distances[1][pos] for pos in distances[1])
 
 
 def solve(wires):
